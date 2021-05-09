@@ -24,6 +24,7 @@
             <p class="mb-0">Little Bitty URL Shortener</p>
         </div>
     </nav>
+
     <!-- Form -->
     <form method="post" action="index.php"> 
         <div class="input-group-lg center-content">
@@ -34,9 +35,6 @@
             <input type="submit" class="btn btn-primary btn-align" name="submit" value="Let's shorten it!" >
         </center>
     </form>
-    <footer>
-        <p> This is a mini project done by Akshara A with respect to her Technology Management internship at NAF. </p>
-    </footer>
     
     <!-- To avoid resubmission on reload -->
     <script>
@@ -78,4 +76,6 @@
             header('Location: index.php');
         }
 }
+
+include 'footer.php';
 ?>
