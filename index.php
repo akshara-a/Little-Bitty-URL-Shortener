@@ -37,6 +37,13 @@
     <footer>
         <p> This is a mini project done by Akshara A with respect to her Technology Management internship at NAF. </p>
     </footer>
+    
+    <!-- To avoid resubmission on reload -->
+    <script>
+        if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, window.location.href );
+    }
+    </script>
 </body>
 </html>
 
